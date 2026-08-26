@@ -47,3 +47,12 @@ O banco de dados é fundamental para armazenar informações que variam e cresce
 6. **Controlar uma sessão de usuário**
    * **Classificação:** Server-side (com auxílio do Client).
    * **Justificativa:** O servidor é o responsável final por determinar se uma sessão é válida, gerando tokens seguros ou gerenciando a sessão em memória. O *client-side* apenas guarda o identificador (via Cookies ou LocalStorage) e o envia de volta a cada nova requisição, mas a lógica de controle, expiração e invalidação pertence ao servidor.
+
+---
+
+   ### Erro no console
+
+   **Exercicio01**
+   * **Uncaught SyntaxError: Unexpected token '(' :** Esse erro significa que o JavaScript encontrou um parêntese de abertura ( em um lugar onde a regra da linguagem não permite. Basicamente, é um pequeno erro de sintaxe (digitação)
+
+ 
