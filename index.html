@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos da Web</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 20px; max-width: 800px; }
+        h1, h2 { color: #333; }
+        .example { background: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Fundamentos da Web</h1>
+
+    <h2>Página Estática</h2>
+    <p>Uma página estática é aquela cujo conteúdo (código HTML, CSS e imagens) é fixo e entregue ao navegador exatamente como está armazenado no servidor. Ela não muda de acordo com o usuário ou o horário de acesso.</p>
+    <div class="example">
+        <strong>Exemplo real:</strong> O site de uma padaria local que exibe apenas o endereço, horário de funcionamento e o telefone de contato.
+    </div>
+
+    <h2>Página Dinâmica</h2>
+    <p>Uma página dinâmica tem seu conteúdo construído em tempo real no momento em que o usuário faz a requisição. Ela frequentemente consulta bancos de dados e adapta o que é exibido com base nas interações do usuário, preferências ou status de login.</p>
+    <div class="example">
+        <strong>Exemplo real:</strong> O feed do Instagram, onde o conteúdo exibido muda constantemente e é exclusivo para cada usuário logado.
+    </div>
+
+    <h2>Fluxo Básico de uma Requisição Web</h2>
+    <ol>
+        <li><strong>Navegador (Cliente):</strong> O usuário digita uma URL e o navegador inicia a solicitação, enviando uma requisição HTTP.</li>
+        <li><strong>Rede/Internet:</strong> A requisição viaja pela internet até encontrar o endereço (IP) onde o site está hospedado.</li>
+        <li><strong>Servidor:</strong> O servidor recebe a requisição, processa as informações (podendo consultar um banco de dados no caso de páginas dinâmicas) e monta o pacote final.</li>
+        <li><strong>Resposta:</strong> O servidor envia uma resposta HTTP (contendo o código HTML, CSS e JavaScript) de volta.</li>
+        <li><strong>Navegador (Renderização):</strong> O navegador recebe a resposta, lê o código e renderiza a interface visual na tela para o usuário.</li>
+    </ol>
+</body>
+</html>
