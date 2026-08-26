@@ -50,9 +50,10 @@ O banco de dados é fundamental para armazenar informações que variam e cresce
 
 ---
 
-   ### Erro no console
+   ### Erros no console
 
    **Exercicio01**
    * **Uncaught SyntaxError: Unexpected token '(' :** Esse erro significa que o JavaScript encontrou um parêntese de abertura ( em um lugar onde a regra da linguagem não permite. Basicamente, é um pequeno erro de sintaxe (digitação)
 
- 
+ **Exercicio04**
+  * `20 + 5` pode resultar em `205` quando o valor `20` é recebido pelo `prompt()` sem conversão porque o `prompt()` sempre retorna o que o usuario digita em forma de texto (String), e não de numero.
